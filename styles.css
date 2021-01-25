@@ -1,0 +1,151 @@
+.container{
+    padding-left:25%;
+    padding-right: 25%;
+}
+.header{
+  position: relative;
+  height:30vh;
+  /*background-image: linear-gradient(to right top, #7f8183, #6d7071, #5c5f5f, #4d4f4e, #3e3f3d);*/
+  background-color: #565656;
+}
+
+.avatar{
+
+    position:absolute;
+    top:10%;
+    left:43%;
+    vertical-align:middle;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    z-index:10;
+}
+
+.dots{
+position:absolute;
+left:41.7%;
+top:5.3%;
+border: 3px dotted #ddc061;
+padding: 56px;
+border-radius: 60%;
+display: inline-block;
+z-index: 1;
+}  
+
+.stripe{
+    
+    position:absolute;
+    width:100%;
+    top:67%;
+    height:18%;
+    background-color: #eeeeee;
+    z-index:2134;
+}
+
+.nameHolder{
+
+    position:absolute;
+    top:55%;
+    border-radius: 5px;
+    left:26%;
+    height:38%;
+    width:50%;
+    z-index:532453;
+    background-color: #fabe28;
+}
+
+.name{
+
+margin-top: 5%;
+margin-left:2%;
+padding:0.5%;
+font-family: sans-serif;
+font-weight: 700;
+font-size: 240%;
+
+}
+
+.contact-bar{
+ height: 5vh;
+ background-color:#ffffff;
+ display:block;
+ 
+ 
+
+}
+
+.contact-details{
+padding:1%;
+font-family: arial;
+font-size: 0.7em;
+text-align: center;
+color: #4f4f4f;
+}
+
+.main-content{
+
+height:85vh;
+background-color: #ffffff;
+position:relative;
+
+}
+
+.left-box{
+
+position: absolute;
+background-color: aquamarine;
+
+width:50%;
+height:100%;
+
+}
+
+.right-box{
+
+    position: absolute;
+    background-color: chartreuse;
+    
+    width:50%;
+    left:50%;
+    height:100%;
+    border-left: 3px solid rebeccapurple;
+}
+
+.info-block{
+
+ 
+ background-color: crimson;
+ margin:7%;
+ width:85%;
+ height:fit-content;
+}
+
+.title-bar{
+
+    position:relative;
+    margin:5%;
+    padding:2%;
+    width:82%;
+    height:40px;
+    background-color: snow;
+}
+
+.icon{
+      
+
+}
+
+.title{
+    position:absolute;
+    left:8%;
+    font-size: larger;
+    font-family: Arial;
+}
+
+.content{
+
+margin-top: 3%;
+overflow-wrap: break-word;
+font-family: Arial;
+
+}
