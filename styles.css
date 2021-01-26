@@ -61,7 +61,7 @@ margin-left:2%;
 padding:0.5%;
 font-family: sans-serif;
 font-weight: 700;
-font-size: 240%;
+font-size: 240%  ;
 
 }
 
@@ -69,8 +69,6 @@ font-size: 240%;
  height: 5vh;
  background-color:#ffffff;
  display:block;
- 
- 
 
 }
 
@@ -93,28 +91,27 @@ position:relative;
 .left-box{
 
 position: absolute;
-background-color: aquamarine;
-
+background-color: white;
 width:50%;
-height:100%;
+height:fit-content;
 
 }
 
 .right-box{
 
     position: absolute;
-    background-color: chartreuse;
+    background-color: white;
     
     width:50%;
     left:50%;
-    height:100%;
-    border-left: 3px solid rebeccapurple;
+    height:fit-content;
+    border-left: 3px solid rgb(79, 79, 80);
 }
 
 .info-block{
 
  
- background-color: crimson;
+ background-color:white;
  margin:7%;
  width:85%;
  height:fit-content;
@@ -123,23 +120,42 @@ height:100%;
 .title-bar{
 
     position:relative;
-    margin:5%;
-    padding:2%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:0%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:1.5%;
     width:82%;
     height:40px;
     background-color: snow;
 }
 
 .icon{
-      
+    position: absolute; 
+    top:25%;
+     
 
+
+}
+
+.icon-decoration{
+    position: absolute;
+    border-radius: 50%;
+    border:2px dotted yellow;
+    top:8px;
+    left:-1px;
+    padding:0px;
+    width:2.3em;
+    height:2.3em;
 }
 
 .title{
     position:absolute;
-    left:8%;
-    font-size: larger;
+    left:19%;
+    font-size: 1.3em;
     font-family: Arial;
+    top:34%;
 }
 
 .content{
@@ -149,3 +165,63 @@ overflow-wrap: break-word;
 font-family: Arial;
 
 }
+
+.sub-heading{    
+    margin-top:7%;
+    padding-top:2%;
+    text-align: center;
+}
+
+.skill-chart{
+
+    position: relative;
+}
+
+.slider-labels{
+    margin-left:0%;
+    width:40%;
+    background-color: white;
+    margin-top:2%;
+    
+
+}
+
+.slider-label{
+
+font-family:arial;
+font-size: 0.9em;
+margin-top:1%;
+margin-bottom:2%;
+word-wrap: none;
+}
+
+.sliders{
+
+    position: absolute;
+    top:-6%;
+    width:58%;
+    margin-left:40%;
+    margin-right:2%;
+    margin-top:2%;
+    background-color: white;
+    margin-bottom: 5%;
+
+}
+
+.slider {
+
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 8%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    
+}
+
+.job-title{
+text-align: left;
+font-size: smaller;
+
+}
+
+/*background-image: linear-gradient(to right top, #eac24c, #eccc67, #efd682, #f2e09b, #f5e9b5);*/
